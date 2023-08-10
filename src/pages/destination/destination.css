@@ -1,0 +1,106 @@
+.destination{
+    padding-inline: 70px;
+    padding-block: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    color: #fff;
+}
+.subheading{
+    font-size: 2vw;
+}
+.planet-information{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 50px;
+}
+.planet-btn{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content:center;
+
+    position: absolute;
+    top: 282px;
+    left: 420px;
+}
+.planet-btn > ul{
+    
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+}
+.planet-btn > ul > li> button{
+    all: unset;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.planet-information > .image{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid yellow; */
+}
+.planet-full-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.planet-full-information >ul{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+
+}
+
+.planet-information-heading >h1{
+    font-size: 4rem;
+}
+
+.planet-information-description {
+    width: 500px;
+    height:100px;
+    /* border: 1px solid red; */
+}
+.planet-information-description > p{
+    font-size: 1.2rem;
+    color: lightgray;
+    font-weight: 300;
+}
+
+.planet-information > .image > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         1.0s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    	
+    	 transition: all 0.5s ease-in;
+    animation-name:             rotate; 
+    animation-duration:         5.0s; 
+    animation-iteration-count:  infinite;
+    animation-timing-function: linear; 
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+ 
+
+ @-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}

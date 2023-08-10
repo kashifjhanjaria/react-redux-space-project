@@ -1,0 +1,53 @@
+.home{
+    padding-inline: 70px;
+    padding-block: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    color: #fff;
+}
+.subheading{
+    font-size: 2vw;
+}
+.mainheading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+/* .animated-circle{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    animation: mymove 5s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.mainheading >.animated-circle> .circle_btn{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    font-size: 2rem;
+    /* animation: mymove 5s infinite; */
+    /* position: relative; */
+}
+.mainheading >h1{
+    font-size: 8vw;
+}
+/* @keyframes mymove {
+    0%   {  width: 150px;
+            height: 150px;}
+    25%  {  width: 175px;
+            height: 175px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+  } */
+
